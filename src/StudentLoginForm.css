@@ -1,0 +1,49 @@
+/* StudentLoginForm.css */
+
+.login-container {
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f3e8ff; /* light purple */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #6a1b9a; /* darker purple */
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #9c27b0; /* highlight on focus */
+  box-shadow: 0 0 5px #d1c4e9;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9c27b0; /* purple button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #7b1fa2;
+}
